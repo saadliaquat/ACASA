@@ -1,0 +1,106 @@
+/* Container that ensures the entire page is occupied */
+.register-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background: url('./bg.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  /* Container that wraps the card */
+  .card-container {
+    width: 100%;
+    max-width: 450px; /* The maximum width for the card */
+    margin-right: 2rem;
+  }
+  
+  /* Card styling */
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card body padding */
+  .card-body {
+    padding: 2rem;
+  }
+  
+  /* Input field styling */
+  .form-outline input {
+    height: 50px;
+    width: 90%;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .form-outline input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button styling */
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Form-check and terms of service */
+  .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .form-check-label {
+    font-size: 14px;
+  }
+  
+  .form-check-label a {
+    text-decoration: none;
+  }
+  
+  /* Text styling */
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Custom gradient background */
+  .gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(6, 11, 112, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(6, 11, 112, 0.5));
+  }
+  
+  .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(132, 211, 250), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(132, 242, 250), rgba(143, 211, 244, 1));
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card-container {
+      margin-right: 1rem;
+    }
+  }
+  

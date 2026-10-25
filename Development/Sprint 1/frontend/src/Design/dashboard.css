@@ -1,0 +1,47 @@
+.dashboard {
+    padding-top: 20px; /* Adds padding at the top of the container */
+  }
+  
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns h1 to the left and button to the right */
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .generate-report-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 5px 10px; /* Reduced padding for a smaller button */
+    font-size: 14px; /* Smaller font size */
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Absolute positioning */
+    right: 30px; /* Distance from the right edge */
+    top: 50px; /* Distance from the top (adjust as needed) */
+  }
+  
+  
+  .generate-report-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center; 
+    padding-top: 20px;
+    
+  }
+  
+  /* dashboard.css */
+body {
+  background-image: url('./bg2.png'); /* Make sure to replace with the correct path */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Ensures the background covers the full height of the viewport */
+  margin: 0; /* Removes any default margin */
+}
